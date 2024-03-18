@@ -2,7 +2,6 @@ type Manifest = chrome.runtime.ManifestV3;
 
 const getOutputFile = (file: string): string => {
   return file
-    .replace(/\.(pug)/g, ".html")
     .replace(/\.(scss|stylus|sass)/g, ".css")
     .replace(/\.(jsx|ts|tsx)/g, ".js");
 };
