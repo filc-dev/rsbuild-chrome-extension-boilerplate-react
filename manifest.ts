@@ -4,10 +4,9 @@ const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
 const manifest: chrome.runtime.ManifestV3 = {
   manifest_version: 3,
   default_locale: "en",
-  name: "rsbuild-chrome-extension-boilerplate-react",
+  name: packageJson.name,
   version: packageJson.version,
-  description:
-    "A boilerplate for building Chrome extensions with rsbuild and React",
+  description: packageJson.description || "",
   action: {
     default_popup: "src/popup/index.html",
   },

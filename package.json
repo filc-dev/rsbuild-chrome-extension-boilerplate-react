@@ -1,5 +1,6 @@
 {
-  "name": "my-project",
+  "name": "rsbuild-chrome-extension-boilerplate-react",
+  "description": "A boilerplate for building Chrome extensions with rsbuild and React",
   "private": true,
   "version": "1.0.0",
   "scripts": {
