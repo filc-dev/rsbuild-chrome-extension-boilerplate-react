@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "rsbuild dev --open",
+    "build:watch": "rsbuild build --watch",
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },

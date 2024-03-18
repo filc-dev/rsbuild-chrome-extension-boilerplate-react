@@ -9,7 +9,7 @@ export default defineConfig({
     htmlPlugin: [
       {
         chunks: ["popup"],
-        filename: "popup.html",
+        filename: "./src/popup/index.html",
         template: "./src/popup/index.html",
         minify: true,
       },
@@ -18,12 +18,15 @@ export default defineConfig({
   source: {
     entry: {
       popup: "./src/popup/index.tsx",
-      background: "./src/background.ts",
+      background: "./src/background/index.ts",
     },
   },
   output: {
+    filename: {
+      js: "[name].js",
+    },
     distPath: {
-      js: "src",
+      js: "src/[name]",
     },
   },
 });
