@@ -1,4 +1,4 @@
-import fs from "node:fs";
+import fs from "fs";
 const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
 
 const manifest: chrome.runtime.ManifestV3 = {
