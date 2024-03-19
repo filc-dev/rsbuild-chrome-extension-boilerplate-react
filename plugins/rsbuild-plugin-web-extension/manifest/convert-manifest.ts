@@ -8,7 +8,16 @@ const getManifest = async (
 ): Promise<{
   default: chrome.runtime.ManifestV3;
 }> => {
-  const manifestPath = resolve(api.context.rootPath, "manifest.ts");
+  const allowManifestExtensions = ["ts", "js", "json"];
+
+  const mainifestExtension = allowManifestExtensions.find((ext) => {
+    return fs.existsSync(resolve(api.context.rootPath, `manifest.${ext}`));
+  });
+
+  const manifestPath = resolve(
+    api.context.rootPath,
+    `manifest.${mainifestExtension}`
+  );
 
   return await import(manifestPath);
 };
