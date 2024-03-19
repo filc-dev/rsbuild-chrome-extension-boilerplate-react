@@ -13,6 +13,10 @@ export const getManifest = async (
     return existsSync(resolve(api.context.rootPath, `manifest.${ext}`));
   });
 
+  if (!mainifestExtension) {
+    throw new Error("Can't find manifest file.");
+  }
+
   const manifestPath = resolve(
     api.context.rootPath,
     `manifest.${mainifestExtension}`
