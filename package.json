@@ -15,13 +15,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "rsbuild-plugin-web-extension": "^0.0.3",
     "@rsbuild/core": "^0.4.15",
     "@rsbuild/plugin-react": "^0.4.15",
     "@types/chrome": "^0.0.263",
     "@types/node": "^20.11.28",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
-    "html-bundler-webpack-plugin": "^3.6.4",
     "typescript": "^5.4.2"
   }
 }
