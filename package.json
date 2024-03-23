@@ -15,7 +15,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "rsbuild-plugin-web-extension": "^0.0.3",
+    "rsbuild-plugin-web-extension": "^0.0.4",
     "@rsbuild/core": "^0.4.15",
     "@rsbuild/plugin-react": "^0.4.15",
     "@types/chrome": "^0.0.263",

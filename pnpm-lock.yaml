@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^18.2.18
     version: 18.2.18
   rsbuild-plugin-web-extension:
-    specifier: ^0.0.3
-    version: 0.0.3(@rsbuild/core@0.4.15)
+    specifier: ^0.0.4
+    version: 0.0.4(@rsbuild/core@0.4.15)
   typescript:
     specifier: ^5.4.2
     version: 5.4.2
@@ -414,8 +414,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /rsbuild-plugin-web-extension@0.0.3(@rsbuild/core@0.4.15):
-    resolution: {integrity: sha512-Q2YYtGA1FehebZQzEYn6qzeLoRQYgYR6dKbAKWvGM74cfPUxeAPdwGi9cOB0csygsd/mdUAnq6vJPzs16cILqw==}
+  /rsbuild-plugin-web-extension@0.0.4(@rsbuild/core@0.4.15):
+    resolution: {integrity: sha512-4jp5bT61ZUtSXERAKeeWdo3kmKmC6hb/EZGxJLeQVc4q71HrJF6VwWWezrpEe5OcwchqOPD9TSB56VfMPkwbvw==}
     peerDependencies:
       '@rsbuild/core': 0.x
     dependencies:
