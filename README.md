@@ -1,5 +1,6 @@
 # Repository has been moved
 This repository has been moved to [filc-dev/rsbuild-plugin-web-extension.](https://github.com/filc-dev/rsbuild-plugin-web-extension/tree/main/examples/with-react)
+<br/>
 to support cross-platform usage by adopting a plugin-based structure.
 
 # Chrome Extension Boilerplate with React + Rsbuild + TypeScript
